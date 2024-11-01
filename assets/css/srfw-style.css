@@ -1,0 +1,81 @@
+ul.rss-feed-wrapper {
+  list-style: none;
+  margin: 0;
+  padding: 20px;
+  border: 3px solid #e9ecef;
+  border-radius: 10px;
+  max-height: 800px;
+  overflow-y: scroll;
+}
+li.rss-feed-header {
+  display: flex; 
+  align-items: center;
+  padding: 12px 10px;
+  text-align: center;
+  text-transform: capitalize;
+  border-bottom: 1px solid rgba(15,70,100,.12);
+}
+div.feed-title a {
+  text-decoration: none;
+  color: #228be6;
+  font-weight: 700;
+  font-size: 1.1em;
+  padding-bottom: 10px;
+}
+span.author-name {
+  color: #abb0b5;
+  font-size: .9em;
+}
+.rss-feed-logo img {
+  height: 37px;
+}
+
+
+.rss-media {
+   margin-top: 25px;
+}
+.rss-feed-data {
+  display: flex;
+}
+.rss-feed-logo {
+  color: red;
+  font-size: 2em;
+  margin-left: -19px;
+}
+.feed-name {
+  font-size: 1.4em;
+  margin-left: 7px;
+}
+.rss-r-img {
+margin-right: 20px;
+margin-top: -26px;
+width: 50px;
+height: 50px;
+border: 1px solid #ddd;
+background-size: cover;
+background-position: center;
+border-radius: 5px;
+border: 1px solid #e9ecef;
+}
+.coinmc-r-stat i {
+  font-size: .8em;
+  margin-left: 10px;
+  margin-right: 3px;
+
+}
+.coinmc-r-stat i:first-child {
+  margin-left: 0;
+}
+.coinmc-r-stat {
+  color: rgb(73, 80, 87);
+  font-size: 0.9em;
+}
+li.rss-feed-header {
+  font-size: 1.4em;
+}
+i.fas.fa-arrow-up {
+  margin-right: 3px;
+}
+.rss-feed-main-cls{
+  width: 100%;
+}
